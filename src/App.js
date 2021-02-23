@@ -1,11 +1,11 @@
 import React from "react"
-import GameTicTacToe from "./components/GameTicTacToe"
-import Header from "./components/Header"
 import "./App.css"
-import Footer from "./components/Footer"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import ToDoList from "./components/ToDoList"
-import Home from './components/Home'
+import Home from "./components/containers/Home"
+import GameTicTacToe from "./components/containers/GameTicTacToe/GameTicTacToe"
+import ToDoList from "./components/containers/ToDoList"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 const App = () => {
 	return (

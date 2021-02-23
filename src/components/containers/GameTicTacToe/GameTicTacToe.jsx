@@ -1,7 +1,7 @@
 import React, { useState } from "react"
-import Board from "./Board"
+import Board from "../GameTicTacToe/Board"
 import "./GameTicTacToe.css"
-import { calculateWinner } from "../findWinner"
+import { calculateWinner } from "../GameTicTacToe/findWinner"
 
 const GameTicTacToe = () => {
 	const [board, setBoard] = useState(Array(9).fill(null))
@@ -11,9 +11,9 @@ const GameTicTacToe = () => {
 	const handleClick = index => {
 		const boardCopy = [...board]
 
-		// Опред был ли клик по ячейке или game over
+		// Опред был ли клик по ячейке или игра окончена
 		if (winner || boardCopy[index]) return
-
+		console.log(boardCopy)
 		//Определяем чей ход: X ? O
 		boardCopy[index] = xIsNext ? "X" : "O"
 

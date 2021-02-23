@@ -1,11 +1,66 @@
 .header {
 	padding: 18px;
+	background-color: #94d6ba;
 }
 
 ul {
 	display: flex;
 	justify-content: space-between;
-	margin: 0 auto;
 	max-width: 300px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 2px solid #fff;
 	list-style: none;
+}
+
+li {
+	display: flex;
+}
+
+a {
+	position: relative;
+	display: inline-block;
+	padding: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-right: 2px solid transparent;
+	border-left: 2px solid transparent;
+	cursor: pointer;
+	overflow: hidden;
+	transition: 0.3s all ease;
+}
+
+a:hover {
+	border-right: 2px solid #fff;
+	border-left: 2px solid #fff;
+}
+
+a:after,
+a:before {
+	position: absolute;
+	content: "";
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background-color: #fff;
+	transition: 0.3s all ease;
+}
+
+a:before {
+	bottom: 0;
+	transform: translateX(-100%);
+}
+
+a:hover:before {
+	transform: translateX(100%);
+}
+
+a:after {
+	top: 0;
+	transform: translateX(100%);
+}
+
+a:hover:after {
+	transform: translateX(-100%);
 }
