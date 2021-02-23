@@ -13,7 +13,7 @@ const GameTicTacToe = () => {
 
 		// Опред был ли клик по ячейке или игра окончена
 		if (winner || boardCopy[index]) return
-		console.log(boardCopy)
+		
 		//Определяем чей ход: X ? O
 		boardCopy[index] = xIsNext ? "X" : "O"
 
