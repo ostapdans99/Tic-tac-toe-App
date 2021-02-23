@@ -3,7 +3,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	min-height: 100vh;
+	flex: 1;
 	width: 100%;
 	background-color: #64ac8f;
 }
@@ -12,27 +12,26 @@
 	width: 200px;
 	height: 36px;
 	margin-bottom: 36px;
+	font-size: 18px;
 	cursor: pointer;
 	color: #fff;
 	outline: none;
 	background-color: #94d6ba;
 	border: none;
 	border-radius: 6px;
-   transition: 0.3s all ease;
+	transition: 0.3s all ease;
 }
 
 .start-btn:hover {
 	background-color: #fff;
 	color: #94d6ba;
-	
 }
 
 .start-btn:active {
-
-   transform: scale(0.9);
+	transform: scale(0.9);
 }
 
 .game-info {
-   font-size: 26px;
-   color: #fff
+	font-size: 26px;
+	color: #fff;
 }

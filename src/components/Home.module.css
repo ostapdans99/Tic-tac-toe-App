@@ -1,0 +1,8 @@
+.wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 30px;
+	flex: 1;
+	background: green;
+}

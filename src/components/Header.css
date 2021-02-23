@@ -1,0 +1,11 @@
+.header {
+	padding: 18px;
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 300px;
+	list-style: none;
+}
