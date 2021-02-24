@@ -3,6 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Roboto", sans-serif;
+	font-size: 10px;
 }
 
-
+.wrapper {
+	flex: 1;
+	background: #64ac8f;
+}

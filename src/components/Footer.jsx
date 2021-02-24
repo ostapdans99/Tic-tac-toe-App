@@ -4,7 +4,7 @@ import "./Footer.css"
 const Footer = () => {
 	return (
 		<footer className="footer">
-			<p>
+			<p className ="created-by">
 				Created by <strong>Andrei Ostapenko</strong>
 			</p>
 		</footer>

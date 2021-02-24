@@ -3,9 +3,16 @@
 	align-items: center;
 	justify-content: center;
 	padding: 18px;
+
 	background-color: #94d6ba;
 	color: #fff;
 }
-p strong {
-	color: #000
+
+.created-by {
+	font-size: 1.6rem;
+}
+
+.created-by strong {
+	font-size: 1.6rem;
+	color: #000;
 }

@@ -1,9 +1,9 @@
 import React from "react"
-import styles from "./Home.module.css"
+import './Home.css'
 
 const Home = () => {
 	return (
-		<div className={styles.wrapper}>
+		<div className="wrapper home-wrapper">
 			<span>Here you can</span>
 			<a href="/todo-list">plan your day</a>
 			<span>or</span>

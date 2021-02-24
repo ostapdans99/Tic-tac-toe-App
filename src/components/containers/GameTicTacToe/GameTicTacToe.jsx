@@ -34,7 +34,7 @@ const GameTicTacToe = () => {
 	}
 
 	return (
-		<div className="wrapper">
+		<div className="wrapper game-wrapper">
 			{startNewGame()}
 			<Board squares={board} click={handleClick} />
 			<p className="game-info">
